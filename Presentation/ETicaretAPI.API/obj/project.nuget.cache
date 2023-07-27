@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "f7An4ltQn5oibb8OhstJ6yGsN+E+afeMG5KwfUi6+5Us4n1bGcIpB72GjrZfeySye0lEDl7o4uy7f8ePbjqllQ==",
+  "success": true,
+  "projectFilePath": "/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/ETicaretAPI.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/tunahanozen/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/tunahanozen/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/tunahanozen/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/tunahanozen/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/tunahanozen/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/tunahanozen/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/tunahanozen/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ETicaretAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ETicaretAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ETicaretAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ETicaretAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ETicaretAPI.Domain/ETicaretAPI.Domain.csproj",
+      "msbuildProject": "../ETicaretAPI.Domain/ETicaretAPI.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ETicaretAPI.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/tunahanozen/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj",
+      "projectName": "ETicaretAPI.Application",
+      "projectPath": "/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj",
+      "packagesPath": "/Users/tunahanozen/.nuget/packages/",
+      "outputPath": "/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Core/ETicaretAPI.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/tunahanozen/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/ETicaretAPI.Domain.csproj": {
+              "projectPath": "/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/ETicaretAPI.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
