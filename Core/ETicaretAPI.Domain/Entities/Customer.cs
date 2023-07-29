@@ -8,6 +8,7 @@ namespace ETicaretAPI.Domain.Entities
 		public ICollection<Order> Orders { get; set; }
 
 		public string Name { get; set; }
+
 	}
 }
 
