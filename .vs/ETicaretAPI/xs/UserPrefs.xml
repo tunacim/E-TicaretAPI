@@ -1,27 +1,51 @@
 ﻿<Properties StartupConfiguration="{EEFEC8B0-FC74-4977-9738-61D5C971E2DA}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Infrastructure.ETicaretAPI.Infrastructure FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Core.ETicaretAPI.Domain FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.ETicaretAPI.Persistence FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/ETicaretAPI.Domain/Class1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/ETicaretAPI.Persistence/Repositories/ReadRepository.cs">
     <Files>
-      <File FileName="Core/ETicaretAPI.Domain/Class1.cs" Line="1" Column="1" />
+      <File FileName="Core/ETicaretAPI.Application/Repositories/Customer/ICustomerReadRepository.cs" Line="12" Column="1" />
+      <File FileName="Core/ETicaretAPI.Application/Repositories/Customer/ICustomerWriteRepository.cs" Line="6" Column="69" />
+      <File FileName="Core/ETicaretAPI.Application/Repositories/Order/IOrderReadRepository.cs" Line="6" Column="61" />
+      <File FileName="Core/ETicaretAPI.Application/Repositories/Order/IOrderWriteRepository.cs" Line="6" Column="18" />
+      <File FileName="Core/ETicaretAPI.Application/Repositories/Product/IOrderReadRepository.cs" Line="6" Column="65" />
+      <File FileName="Core/ETicaretAPI.Application/Repositories/Product/IProductWriteRepository.cs" Line="8" Column="3" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Repositories/Customer/CustomerReadRepository.cs" Line="13" Column="6" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Repositories/Customer/CustomerWriteRepository.cs" Line="9" Column="58" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Repositories/Order/oReadRepository.cs" Line="8" Column="83" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Repositories/Order/OrderWriteRepository.cs" Line="8" Column="86" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Repositories/Product/ProductReadRepository.cs" Line="12" Column="10" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Repositories/Product/ProductWriteRepository.cs" Line="8" Column="92" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Repositories/ReadRepository.cs" Line="35" Column="48" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/ServiceRegistration.cs" Line="20" Column="22" />
+      <File FileName="Presentation/ETicaretAPI.API/Controllers/HomeController.cs" Line="44" Column="32" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Repositories/WriteRepository.cs" Line="55" Column="1" />
+      <File FileName="Core/ETicaretAPI.Domain/Entities/Customer.cs" Line="11" Column="1" />
+      <File FileName="Presentation/ETicaretAPI.API/Program.cs" Line="15" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ETicaretAPI">
-            <Node name="Core" expanded="True">
-              <Node name="ETicaretAPI.Domain" selected="True" />
+            <Node name="Core" expanded="True" />
+            <Node name="Infrastructure" expanded="True">
+              <Node name="ETicaretAPI.Persistence" expanded="True">
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation">
+              <Node name="ETicaretAPI.API" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Core.ETicaretAPI.Application FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API FirstBuild="True" PreferredExecutionTarget="/Applications/Opera.app" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Opera.app" />
   <MultiItemStartupConfigurations />
 </Properties>
