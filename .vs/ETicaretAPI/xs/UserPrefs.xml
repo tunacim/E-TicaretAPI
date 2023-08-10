@@ -1,14 +1,19 @@
 ﻿<Properties StartupConfiguration="{EEFEC8B0-FC74-4977-9738-61D5C971E2DA}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Opera.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ETicaretAPI.API/Program.cs">
     <Files>
-      <File FileName="Presentation/ETicaretAPI.API/Program.cs" Line="1" Column="1" />
+      <File FileName="Presentation/ETicaretAPI.API/Program.cs" Line="11" Column="171" />
+      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductsController.cs" Line="47" Column="34" />
+      <File FileName="Core/ETicaretAPI.Application/Repositories/Product/IProductReadRepository.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ETicaretAPI" expanded="True">
+          <Node name="ETicaretAPI">
             <Node name="Core" expanded="True">
               <Node name="ETicaretAPI.Application" expanded="True">
                 <Node name="Repositories" expanded="True">
@@ -25,8 +30,8 @@
                 <Node name="Contexts" expanded="True" />
               </Node>
             </Node>
-            <Node name="Presentation" expanded="True">
-              <Node name="ETicaretAPI.API" expanded="True">
+            <Node name="Presentation">
+              <Node name="ETicaretAPI.API">
                 <Node name="Controllers" expanded="True" />
                 <Node name="Program.cs" selected="True" />
               </Node>
@@ -36,10 +41,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Opera.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Infrastructure.ETicaretAPI.Infrastructure FirstBuild="True" />
+  <MultiItemStartupConfigurations />
 </Properties>
