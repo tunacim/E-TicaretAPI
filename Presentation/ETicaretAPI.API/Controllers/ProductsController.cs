@@ -44,6 +44,9 @@ namespace ETicaretAPI.API.Controllers
 
             return Ok(_productReadRepository.GetAll(false));
         }
+
+
+
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(string id)
         {
@@ -51,9 +54,14 @@ namespace ETicaretAPI.API.Controllers
         }
 
 
+
         [HttpPost]
         public async Task <IActionResult> Post(VM_Create_Product model )
         {
+            if (ModelState.IsValid)
+            {
+
+            }
              await _productWriteRepository.AddAsync(new()
             {
                 Name=model.Name,
@@ -63,6 +71,9 @@ namespace ETicaretAPI.API.Controllers
             await _productWriteRepository.SaveAsync();
             return StatusCode((int)HttpStatusCode.Created);
         }
+
+
+
         [HttpPut]
         public async Task<IActionResult> Put(VM_Update_Product model) 
         {
@@ -75,7 +86,10 @@ namespace ETicaretAPI.API.Controllers
 
             return Ok();
         }
-        [HttpDelete("{id}")]
+
+
+
+        [HttpDelete("{id}")] 
         public async Task<IActionResult> Delete(string id)
         {
             await _productWriteRepository.RemoveAsync(id);

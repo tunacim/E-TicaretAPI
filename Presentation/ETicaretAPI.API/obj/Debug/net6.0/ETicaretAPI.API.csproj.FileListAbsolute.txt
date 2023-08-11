@@ -74,3 +74,8 @@
 /Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
 /Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/FluentValidation.dll
+/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Infrastructure.dll
+/Users/tunahanozen/Mini-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Infrastructure.pdb

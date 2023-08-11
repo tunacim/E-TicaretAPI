@@ -2,27 +2,26 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Presentation.ETicaretAPI.API PreferredExecutionTarget="/Applications/Opera.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ETicaretAPI.API/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ETicaretAPI.API/Controllers/ProductsController.cs">
     <Files>
       <File FileName="Presentation/ETicaretAPI.API/Program.cs" Line="11" Column="171" />
-      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductsController.cs" Line="47" Column="34" />
-      <File FileName="Core/ETicaretAPI.Application/Repositories/Product/IProductReadRepository.cs" Line="1" Column="1" />
+      <File FileName="Presentation/ETicaretAPI.API/Controllers/ProductsController.cs" Line="78" Column="29" />
+      <File FileName="Core/ETicaretAPI.Application/Repositories/Product/IProductReadRepository.cs" />
+      <File FileName="Core/ETicaretAPI.Application/ViewModel/Products/VM_Create_Product.cs" Line="6" Column="3" />
+      <File FileName="Core/ETicaretAPI.Application/ViewModel/Products/VM_Update_Product.cs" Line="8" Column="41" />
+      <File FileName="Infrastructure/ETicaretAPI.Persistence/Contexts/ETicaretAPIDbContext.cs" Line="27" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ETicaretAPI">
+          <Node name="ETicaretAPI" expanded="True">
             <Node name="Core" expanded="True">
               <Node name="ETicaretAPI.Application" expanded="True">
-                <Node name="Repositories" expanded="True">
-                  <Node name="Customer" expanded="True" />
-                  <Node name="Product" expanded="True" />
+                <Node name="ViewModel" expanded="True">
+                  <Node name="Products" expanded="True" />
                 </Node>
-              </Node>
-              <Node name="ETicaretAPI.Domain" expanded="True">
-                <Node name="Entities" expanded="True" />
               </Node>
             </Node>
             <Node name="Infrastructure" expanded="True">
@@ -30,10 +29,9 @@
                 <Node name="Contexts" expanded="True" />
               </Node>
             </Node>
-            <Node name="Presentation">
-              <Node name="ETicaretAPI.API">
+            <Node name="Presentation" expanded="True">
+              <Node name="ETicaretAPI.API" expanded="True">
                 <Node name="Controllers" expanded="True" />
-                <Node name="Program.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -41,7 +39,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.ETicaretAPI.Infrastructure FirstBuild="True" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

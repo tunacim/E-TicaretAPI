@@ -16,6 +16,8 @@
     <None Remove="Repositories\Order\" />
     <None Remove="ViewModel\" />
     <None Remove="ViewModel\Products\" />
+    <None Remove="Validators\" />
+    <None Remove="Validators\Products\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -24,8 +26,13 @@
     <Folder Include="Repositories\Order\" />
     <Folder Include="ViewModel\" />
     <Folder Include="ViewModel\Products\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Validators\Products\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />
+    <PackageReference Include="FluentValidation" Version="11.6.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.6.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
   </ItemGroup>
 </Project>
