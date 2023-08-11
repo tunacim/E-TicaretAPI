@@ -1,0 +1,316 @@
+# Derlenmiş dosyalar
+*.dll
+*.exe
+
+# Resimler
+*.jpg
+*.png
+
+# Klasörler
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DS_Store
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+*.rsuser
+# Visual Studio 
+.vs
+.vscode/
+publish/
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
+
+
+# DNX
+project.lock.json
+artifacts/
+
+Generated\ Files/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# globs
+Makefile.in
+*.pdb
+*.tlog
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+
+# Executables
+*.exe
+*.out
+*.app
+
+x64
+/bin/*
+
+
+# Local History for Visual Studio Code
+.history/
+
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 workspace options file
+*.opt
+
+# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+*.vbw
+
+# Visual Studio 6 auto-generated project file (contains which files were open etc.)
+*.vbp
+
+# Visual Studio 6 workspace and project file (working project files containing files to include in project)
+*.dsw
+*.dsp
+
+# Visual Studio 6 technical files 
+*.ncb
+*.aps
+
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+PublishScripts/
+*.json
+*.xml
+*.dll
+*.pdb
+*.cache
+.DS_Store
+.vs/ETicaretAPI/xs/project-cache/ETicaretAPI.API-Debug.json
+.vs/ETicaretAPI/xs/project-cache/ETicaretAPI.Application-Debug.json
+.vs/ETicaretAPI/xs/project-cache/ETicaretAPI.Domain-Debug.json
+.vs/ETicaretAPI/xs/project-cache/ETicaretAPI.Infrastructure-Debug.json
+.vs/ETicaretAPI/xs/project-cache/ETicaretAPI.Persistence-Debug.json
+.vs/ETicaretAPI/xs/UserPrefs.xml
+Core/ETicaretAPI.Application/bin/Debug/net6.0/ETicaretAPI.Application.dll
+Core/ETicaretAPI.Application/bin/Debug/net6.0/ETicaretAPI.Application.pdb
+Core/ETicaretAPI.Application/bin/Debug/net6.0/ETicaretAPI.Domain.dll
+Core/ETicaretAPI.Application/bin/Debug/net6.0/ETicaretAPI.Domain.pdb
+Core/ETicaretAPI.Application/obj/Debug/net6.0/ETicaretAPI.Application.assets.cache
+Core/ETicaretAPI.Application/obj/Debug/net6.0/ETicaretAPI.Application.csproj.AssemblyReference.cache
+Core/ETicaretAPI.Application/obj/Debug/net6.0/ETicaretAPI.Application.csproj.CoreCompileInputs.cache
+Core/ETicaretAPI.Application/obj/Debug/net6.0/ETicaretAPI.Application.csproj.FileListAbsolute.txt
+Core/ETicaretAPI.Application/obj/Debug/net6.0/ETicaretAPI.Application.dll
+Core/ETicaretAPI.Application/obj/Debug/net6.0/ETicaretAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+Core/ETicaretAPI.Application/obj/Debug/net6.0/ETicaretAPI.Application.pdb
+Core/ETicaretAPI.Application/obj/ETicaretAPI.Application.csproj.nuget.dgspec.json
+Core/ETicaretAPI.Application/obj/project.assets.json
+Core/ETicaretAPI.Application/obj/project.nuget.cache
+Core/ETicaretAPI.Domain/bin/Debug/net6.0/ETicaretAPI.Domain.dll
+Core/ETicaretAPI.Domain/bin/Debug/net6.0/ETicaretAPI.Domain.pdb
+Core/ETicaretAPI.Domain/obj/Debug/net6.0/ETicaretAPI.Domain.assets.cache
+Core/ETicaretAPI.Domain/obj/Debug/net6.0/ETicaretAPI.Domain.csproj.FileListAbsolute.txt
+Core/ETicaretAPI.Domain/obj/Debug/net6.0/ETicaretAPI.Domain.dll
+Core/ETicaretAPI.Domain/obj/Debug/net6.0/ETicaretAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+Core/ETicaretAPI.Domain/obj/Debug/net6.0/ETicaretAPI.Domain.pdb
+Core/ETicaretAPI.Domain/obj/ETicaretAPI.Domain.csproj.nuget.dgspec.json
+Core/ETicaretAPI.Domain/obj/project.assets.json
+Core/ETicaretAPI.Domain/obj/project.nuget.cache
+Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Application.dll
+Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Application.pdb
+Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Domain.dll
+Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Domain.pdb
+Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Infrastructure.dll
+Infrastructure/ETicaretAPI.Infrastructure/bin/Debug/net6.0/ETicaretAPI.Infrastructure.pdb
+Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.assets.cache
+Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.csproj.AssemblyReference.cache
+Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.csproj.CoreCompileInputs.cache
+Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.csproj.FileListAbsolute.txt
+Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.dll
+Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+Infrastructure/ETicaretAPI.Infrastructure/obj/Debug/net6.0/ETicaretAPI.Infrastructure.pdb
+Infrastructure/ETicaretAPI.Infrastructure/obj/ETicaretAPI.Infrastructure.csproj.nuget.dgspec.json
+Infrastructure/ETicaretAPI.Infrastructure/obj/project.assets.json
+Infrastructure/ETicaretAPI.Infrastructure/obj/project.nuget.cache
+Infrastructure/ETicaretAPI.Persistence/bin/Debug/net6.0/ETicaretAPI.Application.dll
+Infrastructure/ETicaretAPI.Persistence/bin/Debug/net6.0/ETicaretAPI.Application.pdb
+Infrastructure/ETicaretAPI.Persistence/bin/Debug/net6.0/ETicaretAPI.Domain.dll
+Infrastructure/ETicaretAPI.Persistence/bin/Debug/net6.0/ETicaretAPI.Domain.pdb
+Infrastructure/ETicaretAPI.Persistence/bin/Debug/net6.0/ETicaretAPI.Persistence.dll
+Infrastructure/ETicaretAPI.Persistence/bin/Debug/net6.0/ETicaretAPI.Persistence.pdb
+Infrastructure/ETicaretAPI.Persistence/obj/Debug/net6.0/ETicaretAPI.Persistence.assets.cache
+Infrastructure/ETicaretAPI.Persistence/obj/Debug/net6.0/ETicaretAPI.Persistence.csproj.AssemblyReference.cache
+Infrastructure/ETicaretAPI.Persistence/obj/Debug/net6.0/ETicaretAPI.Persistence.csproj.CoreCompileInputs.cache
+Infrastructure/ETicaretAPI.Persistence/obj/Debug/net6.0/ETicaretAPI.Persistence.csproj.FileListAbsolute.txt
+Infrastructure/ETicaretAPI.Persistence/obj/Debug/net6.0/ETicaretAPI.Persistence.dll
+Infrastructure/ETicaretAPI.Persistence/obj/Debug/net6.0/ETicaretAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+Infrastructure/ETicaretAPI.Persistence/obj/Debug/net6.0/ETicaretAPI.Persistence.genruntimeconfig.cache
+Infrastructure/ETicaretAPI.Persistence/obj/Debug/net6.0/ETicaretAPI.Persistence.pdb
+Infrastructure/ETicaretAPI.Persistence/obj/ETicaretAPI.Persistence.csproj.nuget.dgspec.json
+Infrastructure/ETicaretAPI.Persistence/obj/project.assets.json
+Infrastructure/ETicaretAPI.Persistence/obj/project.nuget.cache
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.API.dll
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.API.pdb
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Application.dll
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Application.pdb
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Domain.dll
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Domain.pdb
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Infrastructure.dll
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Infrastructure.pdb
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Persistence.dll
+Presentation/ETicaretAPI.API/bin/Debug/net6.0/ETicaretAPI.Persistence.pdb
+Presentation/ETicaretAPI.API/obj/Debug/net6.0/ETicaretAPI.API.assets.cache
+Presentation/ETicaretAPI.API/obj/Debug/net6.0/ETicaretAPI.API.csproj.AssemblyReference.cache
+Presentation/ETicaretAPI.API/obj/Debug/net6.0/ETicaretAPI.API.csproj.CoreCompileInputs.cache
+Presentation/ETicaretAPI.API/obj/Debug/net6.0/ETicaretAPI.API.csproj.FileListAbsolute.txt
+Presentation/ETicaretAPI.API/obj/Debug/net6.0/ETicaretAPI.API.dll
+Presentation/ETicaretAPI.API/obj/Debug/net6.0/ETicaretAPI.API.GeneratedMSBuildEditorConfig.editorconfig
+Presentation/ETicaretAPI.API/obj/Debug/net6.0/ETicaretAPI.API.genruntimeconfig.cache
+Presentation/ETicaretAPI.API/obj/Debug/net6.0/ETicaretAPI.API.pdb
+Presentation/ETicaretAPI.API/obj/ETicaretAPI.API.csproj.nuget.dgspec.json
+Presentation/ETicaretAPI.API/obj/project.assets.json
+Presentation/ETicaretAPI.API/obj/project.nuget.cache
