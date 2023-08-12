@@ -18,6 +18,7 @@
     <None Remove="ViewModel\Products\" />
     <None Remove="Validators\" />
     <None Remove="Validators\Products\" />
+    <None Remove="RequestParameters\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -28,6 +29,7 @@
     <Folder Include="ViewModel\Products\" />
     <Folder Include="Validators\" />
     <Folder Include="Validators\Products\" />
+    <Folder Include="RequestParameters\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />
