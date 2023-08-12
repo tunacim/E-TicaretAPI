@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/ETicaretAPI.API.props" />
-</Project>
